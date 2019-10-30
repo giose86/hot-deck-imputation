@@ -1,6 +1,6 @@
 <?php
 
-use App\HockDeckImputation;
+use App\HotDeckImputation;
 
 require __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
 
@@ -8,7 +8,7 @@ require __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_
 $data = (new \App\Datasource())->getData();
 
 $result =
-    HockDeckImputation::init($data)
+    HotDeckImputation::init($data)
     ->execute()
     ->getResult();
 
