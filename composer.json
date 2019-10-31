@@ -1,6 +1,6 @@
 {
-    "name": "gcampioni/task-report",
-    "description": "dev challenge task report",
+    "name": "giose86/hot-deck-imputation",
+    "description": "dev challenge hot deck imputation algorithm",
     "type": "project",
     "autoload": {
         "psr-4": {
